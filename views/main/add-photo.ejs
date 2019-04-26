@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+     <div class="row">
+        <div class="col-lg-6 col-md-offset-3">
+            <form id="uploadForm" enctype="multipart/form-data" method="post">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label for="photo_event">Event: </label>
+                            <input type="text" id="photo_event" class="form-control" name="photo_event" value="ADS">
+                        </div>
+                        <div class="form-group">
+                            <label for="photo_instagramhandle">Instagram Handle: </label>
+                            <input type="text" id="photo_instagramhandle" class="form-control" name="photo_instagramhandle"  value="metis116">
+                        <div class="form-group">
+                            <label for="photo_method">Photo Method: </label>
+                            <input type="text" id="photo_method" class="form-control" name="photo_method" value="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="photo_status">Photo Status: </label>
+                            <input type="text" id="photo_status" class="form-control" name="photo_status" value="Done">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="photo_device">Photo Device: </label>
+                            <input type="text" id="photo_device" class="form-control" name="photo_device" value="iPad1">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="file" name="photo" />
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
