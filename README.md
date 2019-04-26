@@ -16,11 +16,7 @@
 
 	Register photo button is temporary for registering the photo. this button will be removed in the future.
 	Once you register the photo, you can check in photo views.
-
-
-And Please pay money via paypal directly in the future. Also I want to chat on skype.
-My skype id is live:metis116. 
-
+	
 Best Regards,
 Yakovenko Artem 
 
